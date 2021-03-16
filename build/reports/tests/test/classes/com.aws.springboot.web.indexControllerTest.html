@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.451s</div>
+<div class="counter">0.444s</div>
 <p>duration</p>
 </div>
 </td>
@@ -79,7 +79,7 @@
 </thead>
 <tr>
 <td class="success">mainPage_loading</td>
-<td class="success">0.451s</td>
+<td class="success">0.444s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -96,36 +96,36 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::        (v2.3.8.RELEASE)
 
-2021-03-12 18:05:11.941  INFO 2372 --- [    Test worker] c.a.springboot.web.indexControllerTest   : Starting indexControllerTest on DESKTOP-OJS49S5 with PID 2372 (started by 윤영훈 in C:\IdeaProjects\springboot-aws)
-2021-03-12 18:05:11.941  INFO 2372 --- [    Test worker] c.a.springboot.web.indexControllerTest   : No active profile set, falling back to default profiles: default
-2021-03-12 18:05:12.461  INFO 2372 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2021-03-12 18:05:12.510  INFO 2372 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 47ms. Found 2 JPA repository interfaces.
-2021-03-12 18:05:13.263  INFO 2372 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
-2021-03-12 18:05:13.288  INFO 2372 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-03-12 18:05:13.289  INFO 2372 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
-2021-03-12 18:05:13.617  INFO 2372 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2021-03-12 18:05:13.617  INFO 2372 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1666 ms
-2021-03-12 18:05:13.681  INFO 2372 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
-2021-03-12 18:05:13.683  INFO 2372 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
-2021-03-12 18:05:13.683  INFO 2372 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem://localhost/~/testdb'
-2021-03-12 18:05:13.989  INFO 2372 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2021-03-12 18:05:14.002  INFO 2372 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-03-16 14:48:50.445  INFO 17196 --- [    Test worker] c.a.springboot.web.indexControllerTest   : Starting indexControllerTest on DESKTOP-OJS49S5 with PID 17196 (started by 윤영훈 in C:\IdeaProjects\springboot2-webservice)
+2021-03-16 14:48:50.446  INFO 17196 --- [    Test worker] c.a.springboot.web.indexControllerTest   : No active profile set, falling back to default profiles: default
+2021-03-16 14:48:50.950  INFO 17196 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-16 14:48:50.998  INFO 17196 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 47ms. Found 2 JPA repository interfaces.
+2021-03-16 14:48:51.735  INFO 17196 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2021-03-16 14:48:51.763  INFO 17196 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-16 14:48:51.763  INFO 17196 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-03-16 14:48:52.102  INFO 17196 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-16 14:48:52.102  INFO 17196 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1648 ms
+2021-03-16 14:48:52.174  INFO 17196 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2021-03-16 14:48:52.210  INFO 17196 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2021-03-16 14:48:52.211  INFO 17196 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem://localhost/~/testdb'
+2021-03-16 14:48:52.532  INFO 17196 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-16 14:48:52.545  INFO 17196 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
 Hibernate: drop table if exists posts
 Hibernate: drop table if exists user
 Hibernate: create table posts (id bigint not null auto_increment, created_date datetime, modified_date datetime, author varchar(255), content TEXT not null, title varchar(500) not null, primary key (id)) engine=InnoDB
 Hibernate: create table user (id bigint not null auto_increment, created_date datetime, modified_date datetime, email varchar(255) not null, name varchar(255) not null, picture varchar(255), role varchar(255) not null, primary key (id)) engine=InnoDB
-2021-03-12 18:05:14.116  INFO 2372 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2021-03-12 18:05:14.116  INFO 2372 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2021-03-12 18:05:14.644  WARN 2372 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2021-03-12 18:05:15.069  INFO 2372 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6851ee6, org.springframework.security.web.context.SecurityContextPersistenceFilter@6c02e8a6, org.springframework.security.web.header.HeaderWriterFilter@5bc0efba, org.springframework.security.web.authentication.logout.LogoutFilter@3d6c2f72, org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter@546be83a, org.springframework.security.oauth2.client.web.OAuth2LoginAuthenticationFilter@454adcf2, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@52195b82, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@4832a91d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2d973950, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7176ae67, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4393a219, org.springframework.security.web.session.SessionManagementFilter@39f347ec, org.springframework.security.web.access.ExceptionTranslationFilter@5a9378fe, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@194af675]
-2021-03-12 18:05:15.352  INFO 2372 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2021-03-12 18:05:15.448  INFO 2372 --- [    Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2021-03-12 18:05:15.904  INFO 2372 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 56218 (http) with context path ''
-2021-03-12 18:05:15.910  INFO 2372 --- [    Test worker] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
-2021-03-12 18:05:15.911  INFO 2372 --- [    Test worker] c.a.springboot.web.indexControllerTest   : Started indexControllerTest in 4.038 seconds (JVM running for 22.608)
-2021-03-12 18:05:16.106  INFO 2372 --- [o-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-03-12 18:05:16.106  INFO 2372 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2021-03-12 18:05:16.174  INFO 2372 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 66 ms
+2021-03-16 14:48:52.662  INFO 17196 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-16 14:48:52.662  INFO 17196 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-16 14:48:53.193  WARN 17196 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-16 14:48:53.721  INFO 17196 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@20dc472f, org.springframework.security.web.context.SecurityContextPersistenceFilter@1717abb6, org.springframework.security.web.header.HeaderWriterFilter@2aee9f19, org.springframework.security.web.authentication.logout.LogoutFilter@7a3ea58e, org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter@6362be84, org.springframework.security.oauth2.client.web.OAuth2LoginAuthenticationFilter@595894e3, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@30be607b, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@5631c057, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@21483905, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7f007c62, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@20d1d28b, org.springframework.security.web.session.SessionManagementFilter@46213a1b, org.springframework.security.web.access.ExceptionTranslationFilter@33a0a938, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3418506b]
+2021-03-16 14:48:54.122  INFO 17196 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-16 14:48:54.223  INFO 17196 --- [    Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-03-16 14:48:54.738  INFO 17196 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 64183 (http) with context path ''
+2021-03-16 14:48:54.745  INFO 17196 --- [    Test worker] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2021-03-16 14:48:54.747  INFO 17196 --- [    Test worker] c.a.springboot.web.indexControllerTest   : Started indexControllerTest in 4.412 seconds (JVM running for 23.908)
+2021-03-16 14:48:54.951  INFO 17196 --- [o-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-16 14:48:54.951  INFO 17196 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-16 14:48:54.997  INFO 17196 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 46 ms
 Hibernate: select posts0_.id as id1_0_, posts0_.created_date as created_2_0_, posts0_.modified_date as modified3_0_, posts0_.author as author4_0_, posts0_.content as content5_0_, posts0_.title as title6_0_ from posts posts0_ order by posts0_.id DESC
 </pre>
 </span>
@@ -138,7 +138,7 @@ Hibernate: select posts0_.id as id1_0_, posts0_.created_date as created_2_0_, po
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 6.7</a> at 2021. 3. 12 오후 6:05:17</p>
+<a href="http://www.gradle.org">Gradle 6.7</a> at 2021. 3. 16 오후 2:48:57</p>
 </div>
 </div>
 </body>
