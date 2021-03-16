@@ -1,17 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.aws.springboot.web.indexControllerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-02-23T06:13:25" hostname="DESKTOP-OJS49S5" time="0.566">
+<testsuite name="com.aws.springboot.web.indexControllerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-03-12T09:05:15" hostname="DESKTOP-OJS49S5" time="0.451">
   <properties/>
-  <testcase name="mainPage_loading" classname="com.aws.springboot.web.indexControllerTest" time="0.566"/>
-  <system-out><![CDATA[15:13:17.277 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.aws.springboot.web.indexControllerTest]
-15:13:17.277 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.aws.springboot.web.indexControllerTest]
-15:13:17.277 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.aws.springboot.web.indexControllerTest]
-15:13:17.277 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.aws.springboot.web.indexControllerTest]
-15:13:17.293 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@7bcc4486 testClass = indexControllerTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@1f487bfc testClass = indexControllerTest, locations = '{}', classes = '{class com.aws.springboot.Application}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=0}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@6c0ae7df, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@bd639c7, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@4bdce883, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@7c8f52e5, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@1ddf6c5c], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> false]], class annotated with @DirtiesContext [false] with mode [null].
-15:13:17.293 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.aws.springboot.web.indexControllerTest]
-15:13:17.293 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.aws.springboot.web.indexControllerTest]
-15:13:17.309 [Test worker] DEBUG org.springframework.test.context.support.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@7bcc4486 testClass = indexControllerTest, testInstance = com.aws.springboot.web.indexControllerTest@7040be2c, testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@1f487bfc testClass = indexControllerTest, locations = '{}', classes = '{class com.aws.springboot.Application}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=0}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@6c0ae7df, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@bd639c7, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@4bdce883, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@7c8f52e5, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@1ddf6c5c], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> false]]].
-15:13:17.340 [Test worker] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=0}
-
+  <testcase name="mainPage_loading" classname="com.aws.springboot.web.indexControllerTest" time="0.451"/>
+  <system-out><![CDATA[
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
 ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
@@ -20,34 +11,37 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::        (v2.3.8.RELEASE)
 
-2021-02-23 15:13:17.777  INFO 13872 --- [    Test worker] c.a.springboot.web.indexControllerTest   : Starting indexControllerTest on DESKTOP-OJS49S5 with PID 13872 (started by 윤영훈 in C:\IdeaProjects\springboot-aws)
-2021-02-23 15:13:17.777  INFO 13872 --- [    Test worker] c.a.springboot.web.indexControllerTest   : No active profile set, falling back to default profiles: default
-2021-02-23 15:13:18.722  INFO 13872 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2021-02-23 15:13:18.847  INFO 13872 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 116ms. Found 1 JPA repository interfaces.
-2021-02-23 15:13:20.107  INFO 13872 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
-2021-02-23 15:13:20.123  INFO 13872 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-02-23 15:13:20.123  INFO 13872 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
-2021-02-23 15:13:20.357  INFO 13872 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2021-02-23 15:13:20.357  INFO 13872 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2549 ms
-2021-02-23 15:13:20.589  INFO 13872 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2021-02-23 15:13:20.903  INFO 13872 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2021-02-23 15:13:20.903  INFO 13872 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem://localhost/~/testdb'
-2021-02-23 15:13:21.403  INFO 13872 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2021-02-23 15:13:21.496  INFO 13872 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
-2021-02-23 15:13:21.748  INFO 13872 --- [    Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2021-02-23 15:13:21.982  INFO 13872 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-03-12 18:05:11.941  INFO 2372 --- [    Test worker] c.a.springboot.web.indexControllerTest   : Starting indexControllerTest on DESKTOP-OJS49S5 with PID 2372 (started by 윤영훈 in C:\IdeaProjects\springboot-aws)
+2021-03-12 18:05:11.941  INFO 2372 --- [    Test worker] c.a.springboot.web.indexControllerTest   : No active profile set, falling back to default profiles: default
+2021-03-12 18:05:12.461  INFO 2372 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-12 18:05:12.510  INFO 2372 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 47ms. Found 2 JPA repository interfaces.
+2021-03-12 18:05:13.263  INFO 2372 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2021-03-12 18:05:13.288  INFO 2372 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-12 18:05:13.289  INFO 2372 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-03-12 18:05:13.617  INFO 2372 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-12 18:05:13.617  INFO 2372 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1666 ms
+2021-03-12 18:05:13.681  INFO 2372 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2021-03-12 18:05:13.683  INFO 2372 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2021-03-12 18:05:13.683  INFO 2372 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem://localhost/~/testdb'
+2021-03-12 18:05:13.989  INFO 2372 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-12 18:05:14.002  INFO 2372 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
 Hibernate: drop table if exists posts
+Hibernate: drop table if exists user
 Hibernate: create table posts (id bigint not null auto_increment, created_date datetime, modified_date datetime, author varchar(255), content TEXT not null, title varchar(500) not null, primary key (id)) engine=InnoDB
-2021-02-23 15:13:22.956  INFO 13872 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2021-02-23 15:13:22.971  INFO 13872 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2021-02-23 15:13:23.662  WARN 13872 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2021-02-23 15:13:24.068  INFO 13872 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2021-02-23 15:13:24.302  INFO 13872 --- [    Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2021-02-23 15:13:25.017  INFO 13872 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 49530 (http) with context path ''
-2021-02-23 15:13:25.033  INFO 13872 --- [    Test worker] c.a.springboot.web.indexControllerTest   : Started indexControllerTest in 7.698 seconds (JVM running for 9.94)
-2021-02-23 15:13:25.314  INFO 13872 --- [o-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-02-23 15:13:25.314  INFO 13872 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2021-02-23 15:13:25.407  INFO 13872 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 93 ms
+Hibernate: create table user (id bigint not null auto_increment, created_date datetime, modified_date datetime, email varchar(255) not null, name varchar(255) not null, picture varchar(255), role varchar(255) not null, primary key (id)) engine=InnoDB
+2021-03-12 18:05:14.116  INFO 2372 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-12 18:05:14.116  INFO 2372 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-12 18:05:14.644  WARN 2372 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-12 18:05:15.069  INFO 2372 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6851ee6, org.springframework.security.web.context.SecurityContextPersistenceFilter@6c02e8a6, org.springframework.security.web.header.HeaderWriterFilter@5bc0efba, org.springframework.security.web.authentication.logout.LogoutFilter@3d6c2f72, org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter@546be83a, org.springframework.security.oauth2.client.web.OAuth2LoginAuthenticationFilter@454adcf2, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@52195b82, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@4832a91d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2d973950, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7176ae67, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4393a219, org.springframework.security.web.session.SessionManagementFilter@39f347ec, org.springframework.security.web.access.ExceptionTranslationFilter@5a9378fe, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@194af675]
+2021-03-12 18:05:15.352  INFO 2372 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-12 18:05:15.448  INFO 2372 --- [    Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-03-12 18:05:15.904  INFO 2372 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 56218 (http) with context path ''
+2021-03-12 18:05:15.910  INFO 2372 --- [    Test worker] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2021-03-12 18:05:15.911  INFO 2372 --- [    Test worker] c.a.springboot.web.indexControllerTest   : Started indexControllerTest in 4.038 seconds (JVM running for 22.608)
+2021-03-12 18:05:16.106  INFO 2372 --- [o-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-12 18:05:16.106  INFO 2372 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-12 18:05:16.174  INFO 2372 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 66 ms
+Hibernate: select posts0_.id as id1_0_, posts0_.created_date as created_2_0_, posts0_.modified_date as modified3_0_, posts0_.author as author4_0_, posts0_.content as content5_0_, posts0_.title as title6_0_ from posts posts0_ order by posts0_.id DESC
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

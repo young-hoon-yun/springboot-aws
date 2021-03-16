@@ -1,29 +1,53 @@
-com/aws/springboot/domain/posts/Posts.java
- com.aws.springboot.domain.posts.Posts
- com.aws.springboot.domain.posts.Posts$PostsBuilder
+com/aws/springboot/domain/user/User.java
+ com.aws.springboot.domain.user.User
+ com.aws.springboot.domain.user.User$UserBuilder
+com/aws/springboot/service/posts/PostsService.java
+ com.aws.springboot.service.posts.PostsService
 com/aws/springboot/domain/BaseTimeEntity.java
  com.aws.springboot.domain.BaseTimeEntity
 com/aws/springboot/web/dto/PostsResponseDto.java
  com.aws.springboot.web.dto.PostsResponseDto
+com/aws/springboot/web/dto/PostsListResponseDto.java
+ com.aws.springboot.web.dto.PostsListResponseDto
 com/aws/springboot/web/HelloController.java
  com.aws.springboot.web.HelloController
-com/aws/springboot/Application.java
- com.aws.springboot.Application
-com/aws/springboot/web/dto/HelloResponseDto.java
- com.aws.springboot.web.dto.HelloResponseDto
+com/aws/springboot/web/PostsApiController.java
+ com.aws.springboot.web.PostsApiController
+com/aws/springboot/config/auth/CustomOAuth2UserService.java
+ com.aws.springboot.config.auth.CustomOAuth2UserService
 com/aws/springboot/web/dto/PostsUpdateRequestDto.java
  com.aws.springboot.web.dto.PostsUpdateRequestDto
  com.aws.springboot.web.dto.PostsUpdateRequestDto$PostsUpdateRequestDtoBuilder
+com/aws/springboot/domain/user/UserRepository.java
+ com.aws.springboot.domain.user.UserRepository
+com/aws/springboot/config/auth/dto/SessionUser.java
+ com.aws.springboot.config.auth.dto.SessionUser
+com/aws/springboot/config/WebConfig.java
+ com.aws.springboot.config.WebConfig
+com/aws/springboot/config/auth/LoginUserArgumentResolver.java
+ com.aws.springboot.config.auth.LoginUserArgumentResolver
+com/aws/springboot/domain/posts/Posts.java
+ com.aws.springboot.domain.posts.Posts
+ com.aws.springboot.domain.posts.Posts$PostsBuilder
+com/aws/springboot/config/auth/SecurityConfig.java
+ com.aws.springboot.config.auth.SecurityConfig
+com/aws/springboot/web/dto/HelloResponseDto.java
+ com.aws.springboot.web.dto.HelloResponseDto
+com/aws/springboot/domain/user/Role.java
+ com.aws.springboot.domain.user.Role
+com/aws/springboot/config/auth/dto/OAuthAttributes.java
+ com.aws.springboot.config.auth.dto.OAuthAttributes
+ com.aws.springboot.config.auth.dto.OAuthAttributes$OAuthAttributesBuilder
+com/aws/springboot/config/auth/LoginUser.java
+ com.aws.springboot.config.auth.LoginUser
 com/aws/springboot/web/dto/PostsSaveRequestDto.java
  com.aws.springboot.web.dto.PostsSaveRequestDto
  com.aws.springboot.web.dto.PostsSaveRequestDto$PostsSaveRequestDtoBuilder
-com/aws/springboot/service/posts/PostsService.java
- com.aws.springboot.service.posts.PostsService
-com/aws/springboot/web/dto/PostsListResponseDto.java
- com.aws.springboot.web.dto.PostsListResponseDto
-com/aws/springboot/web/PostsApiController.java
- com.aws.springboot.web.PostsApiController
 com/aws/springboot/web/IndexController.java
  com.aws.springboot.web.IndexController
 com/aws/springboot/domain/posts/PostsRepository.java
  com.aws.springboot.domain.posts.PostsRepository
+com/aws/springboot/Application.java
+ com.aws.springboot.Application
+com/aws/springboot/config/JpaConfig.java
+ com.aws.springboot.config.JpaConfig
