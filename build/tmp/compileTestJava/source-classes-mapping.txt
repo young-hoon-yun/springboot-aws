@@ -8,3 +8,7 @@ com/aws/springboot/web/PostsApiControllerTest.java
  com.aws.springboot.web.PostsApiControllerTest
 com/aws/springboot/web/HelloControllerTest.java
  com.aws.springboot.web.HelloControllerTest
+com/aws/springboot/web/ProfileControllerUnitTest.java
+ com.aws.springboot.web.ProfileControllerUnitTest
+com/aws/springboot/web/ProfileControllerTest.java
+ com.aws.springboot.web.ProfileControllerTest

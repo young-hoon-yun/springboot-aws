@@ -51,3 +51,5 @@ com/aws/springboot/config/JpaConfig.java
 com/aws/springboot/domain/posts/Posts.java
  com.aws.springboot.domain.posts.Posts
  com.aws.springboot.domain.posts.Posts$PostsBuilder
+com/aws/springboot/web/ProfileController.java
+ com.aws.springboot.web.ProfileController
